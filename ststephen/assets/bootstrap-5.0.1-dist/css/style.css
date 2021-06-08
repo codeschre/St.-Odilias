@@ -110,3 +110,20 @@ font-size: 14px ;
 .NewSection .row{
     max-width: 90% !important;
 }
+.bannerSection{
+    background-image: url(../js/image\ 4.jpg);
+    color:blue;
+}
+.accomplishment img :hover{
+    opacity: .5;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 5s linear;
+}
+.accomplishment img{
+    box-shadow: 10px 10px blue;
+}
+.accomplishment  h2{
+    text-align: center;
+    color: blue;
+}
