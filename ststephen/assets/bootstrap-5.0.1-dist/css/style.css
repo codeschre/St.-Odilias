@@ -111,8 +111,10 @@ font-size: 14px ;
     max-width: 90% !important;
 }
 .bannerSection{
-    background-image: url(../js/image\ 3.jpg);
+    background-image: url(../../images/image\ 3.jpg);
     color:blue;
+    padding: 80px;
+    min-height: 200px;
 }
 .accomplishment img :hover{
     opacity: .5;
@@ -184,4 +186,11 @@ footer ul.quick-link {
 }
 .our-story img{
     box-shadow: 10px 10px blue;
+}
+.Staff img{
+    border-radius: 90%;
+    transition: .7s linear;
+}
+Staff img :hover{
+    box-shadow: 0 0 10px 0px black ;
 }
