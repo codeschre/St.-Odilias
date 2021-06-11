@@ -111,10 +111,11 @@ font-size: 14px ;
     max-width: 90% !important;
 }
 .bannerSection{
-    background-image: url(../../images/image\ 3.jpg);
+    background-image: url(../../images/image\ 2.jpg);
+    background-size: cover;
     color:blue;
     padding: 80px;
-    min-height: 200px;
+    min-height: 200px
 }
 .accomplishment img :hover{
     opacity: .5;
@@ -131,6 +132,7 @@ font-size: 14px ;
 }
 footer{
     color: white;
+    background-size: cover;
 }
 footer h5{
     text-transform:uppercase ;
@@ -193,4 +195,20 @@ footer ul.quick-link {
 }
 Staff img :hover{
     box-shadow: 0 0 10px 0px black ;
+}
+.bannersectionclubs{
+    background-image: url(../../images/image\ 2.jpg);
+    background-size: cover;
+    color:blue;
+    padding: 80px;
+    min-height: 200px;  
+}
+.bannersectionclubs img{
+    box-shadow: 10px 10px;
+}
+.bannersectionclubs img :hover{
+    opacity: .5;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 5s linear;
 }
