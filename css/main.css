@@ -157,14 +157,18 @@ ul li {
 	margin-top: -10px;
 }
 #header.fixed {
-	background-color: darkslateblue;
+	
 }
 #header.fixed a {
 	color: white;
 }
-#header.fixed .header-content {
+#header.fixed .header-content  {
 	border-bottom: 0;
 	padding: 25px 0;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border: 2px solid white;
+	background-color: darkslateblue;
 }
 #header.fixed .nav-toggle {
 	top: 18px;
@@ -180,6 +184,7 @@ ul li {
 }
 .navigation {
 	float: right;
+	
 }
 .navigation li {
 	display: inline-block;
@@ -190,8 +195,9 @@ ul li {
 	font-weight: 700;
 	margin-left: 40px;
 	text-transform: uppercase;
+	transition: 0.3s ease;
 }
-.navigation a:hover, .navigation a.active {
+.navigation a:hover, .navigation a.active :hover {
 	color: darkslateblue;
 }
 .nav-toggle {
@@ -511,13 +517,6 @@ Common Styles
 text-align: center;	
 padding-bottom: 30px;
 }
-.section-header h2{
-	
-}
-.section-header p{
-	
-}
-
 /* pricingtable5 */
 
 /* ------------------------------------------------------------------------------
@@ -696,6 +695,7 @@ About
 .content-3-10 .content {
 	margin-top: 300px;
 	padding: 40px;
+	background-color: darkslateblue;
 }
 
 .content-3-10 h3 {
@@ -796,6 +796,9 @@ footer ul.quick-link {
 	transition: 1s linear;
 	box-shadow: -5px -5px 10px darkslateblue;
   }
+  #news .card i{
+	  padding: 5px 5px 5px 5px;
+  }
   #news .card:hover{
 	box-shadow: 10px 10px 20px darkslateblue;
 	cursor: default;
@@ -862,4 +865,19 @@ footer ul.quick-link {
 	transform: scale(1);
   }
   }
-  
+  .chevron{
+	position:fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index:  5;
+  }
+  .chevron a{
+	color: #27AFD3;
+    text-decoration: none;
+    text-shadow: none;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
