@@ -712,7 +712,7 @@ About
 /*----------------------------------------------------*/
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 600px) {
 	
 	.content-3-10 .image-container {
 		height: 100%;
@@ -723,7 +723,11 @@ About
 		padding: 80px 15px 80px 80px;
 		background: #eaeaea;
 	}
-	
+	.right-side .input-box{
+		height: 50px;
+		width: calc(75%-20%);
+		margin: 12px 0;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -881,8 +885,9 @@ footer ul.quick-link {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
+
 .vick{
-	width: 69%;
+	width: 100%;
 	border-radius: 6px;
 	padding: 20px 60px 40px 40px;
 	box-shadow: 0px 5px 10px darkslateblue;
@@ -925,7 +930,6 @@ footer ul.quick-link {
 }
 .container .content .rightside{
 	width: 75%;
-	margin-left: 75px;
 	top: 0px;
 	bottom: 0px;
 
@@ -939,7 +943,7 @@ footer ul.quick-link {
 }
 .right-side .input-box{
 	height: 50px;
-	width: 600px;
+	width: 400px;
 	margin: 12px 0;
 }
 .right-side .message-box{
