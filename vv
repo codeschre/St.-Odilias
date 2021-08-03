@@ -1,8 +1,0 @@
-<div class="loader_bg">
-    <div class="loader">
-     <img src="images/logo.png" alt="" style="border-radius: 20px; margin-left: -20px; margin-top: -10px;">
-    
-      <h2 class="badge" style="color: white; background-color: darkslateblue; font-size: 36px; margin-left: -120px;">St.Odilia's Dispensary</h2>
-       <h5 class="badge" style="color: darkslateblue; background-color: white;margin-left: -50px;">MISSIONARY BENEDICTINE SISTERS</h5>
-   </div>
- </div>
