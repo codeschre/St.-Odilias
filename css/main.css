@@ -727,7 +727,7 @@ About
 		font-size: 23px;
 		font-weight:bolder;
 		color: darkslateblue;
-		width: 340px;
+		width: 70%;
 		margin-bottom: 50px;
 	}
 
@@ -985,4 +985,36 @@ footer ul li :hover{
 footer ul.quick-link {
     color: black;
     text-decoration: none;
+}
+#home{
+	animation: vick;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	position:relative;
+}
+@keyframes vick {
+	0%{
+		top: -1500px;
+	}
+	100%{
+      top: 0px;
+	}
+}
+#services {
+ animation-fill-mode: forwards;
+ animation: services;
+ animation-duration: 5s;
+ animation-delay: 4s;
+ position: relative;
+}
+@keyframes services{
+0%{
+	  left: -1500px;	
+	  opacity: 0;
+}
+100%{
+	left: 0px;
+		
+	}
+}
 }
