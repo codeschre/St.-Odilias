@@ -529,10 +529,30 @@ padding-bottom: 30px;
 	margin-bottom: 50px;
 }
 .services-content {
+	border-radius: 50%;
 	padding: 30px 30px 20px;
 	margin-top: 30px;
 	background: #f5f5f5;
 	border: 1px solid #fff;
+	animation: serve;
+	animation-duration:  2s;
+	animation-fill-mode:both;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes serve {
+	0%{
+       border-top-left-radius:100% ;
+	}
+	25%{
+		
+	}
+	50%{
+    
+	}
+	100%{
+		border-bottom-right-radius: 100%;
+	}
 }
 .services .icon {
 	color:darkslateblue;
@@ -1166,7 +1186,6 @@ footer ul.quick-link {
    margin-left: 0;
  }
 }
-
 .content1{
 	position: relative;
 	margin: 130px auto;
