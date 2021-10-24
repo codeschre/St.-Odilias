@@ -1,0 +1,84 @@
+    <div class="section-header">
+                <center>
+                  <h2 class="wow fadeInDown animated badge" style="font-size: 36px; background-color: darkslateblue; color: white;">News <span>(inform customers on new services)</span></h2>
+                  <div class="border wow fadeInDown animated "></div>
+                </center>  
+            </div>
+            <div class="row ">
+              <!--first column-->
+                <center>
+                  <div class="col-md-4">
+                    <div class="card mmu" style="border: 2px solid darkslateblue;" >
+                      <img src="images/slides/Lab_8_reception.jpeg" alt=" NEWS"
+                      class="card-img-top img-thumbnail">
+                      <!--card-body-->
+                      <div class="card-body" style="border: 2px solid darkslateblue;" >
+                        <h5 class="card-subtitle text-center">cgfhkudktyfhb</h5>
+                        <hr>
+                        <h3 class="card-title text-center"> </h3>
+                      
+                       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta id quos illum recusandae excepturi, corrupti inventore, debitis, quis consequatur nostrum dolorum beatae perferendis ea tenetur nisi ab expedita impedit numquam! </p>
+                  <div class="row">
+                    <div class="col-lg-6">
+                       <i class="far fa-clock" style="color: blue;">28 july 2021</i>
+                    </div>
+                    <div class="col-lg-6">
+                       
+                    </div>
+                  </div>
+                      </div>  
+                    </div>
+                  </div>
+                </center>
+              <!--second column-->
+             <center>
+              <div class="col-md-4">
+                <div class="card" style="border: 2px solid darkslateblue;" >
+                  <img src="images/slides/services.jpeg" alt=" NEWS"
+                  class="card-img-top img-thumbnail">
+                  <!--card-body-->
+                  <div class="card-body" style="border: 2px solid darkslateblue;" >
+                    <h5 class="card-subtitle text-center">Wrfis twiebfrjflkjmn you should use?</h5>
+                    <hr>
+                    <h3 class="card-title text-center"></h3>
+                     <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident hic quis iusto. Odio, numquam assumenda, vitae saepe consequuntur pariatur reiciendis dicta fugiat quia quas dolor quis consequatur. Quia, voluptatum neque? </p>
+                    <div class="row">
+                      <div class="col-lg-6">
+                         <i class="far fa-clock" style="color: blue;">28 july 2021</i>
+                      </div>
+                      <div class="col-lg-6">
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             </center>
+              <!-- Third column-->
+             <center>
+              <div class="col-md-4">
+                <div class="card mmu" style="border: 2px solid darkslateblue;">
+                  <img src="images/slides/pharmacy_0.jpeg" alt=" NEWS"
+                  class="card-img-top img-thumbnail">
+                  <!--card-body-->
+                  <div class="card-body" style="border: 2px solid darkslateblue;" >
+                    <h5 class="card-subtitle text-center">Whjfrduj jdfhjvnjk jfhv</h5>
+                    <hr>
+                    <h3 class="card-title text-center"> </h3>
+                   <p class="card-text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos neque modi obcaecati quisquam, veniam odio at fugiat? Labore doloribus animi ut molestiae fugiat, architecto voluptatibus saepe aut! Ab, eius ullam. </p>
+              
+                   <div class="row">
+                    <div class="col-lg-6">
+                       <i class="far fa-clock" style="color: blue;">28 july 2021</i>
+                    </div>
+                    <div class="col-lg-6">
+                       
+                    </div>
+                  </div>
+        
+                  </div>
+                </div>
+              </div>
+             </center>
+              <!--new section ends-->
+            </div>
